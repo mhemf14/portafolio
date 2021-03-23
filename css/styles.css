@@ -1,0 +1,145 @@
+:root {
+
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097a7;
+    --gris: #757575;
+
+
+}
+html{
+
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+    font-family:'Krub', sans-serif;
+}
+.contenedor {
+    max-width: 120 rem;
+    margin: 0 auto;
+}
+.nav-bg{
+
+    background-color: var(--secundario);
+}
+.navegacion-principal {
+   
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    
+}
+
+@media (min-width:768px){
+.navegacion-principal{
+flex-direction:row;
+}
+
+
+.navegacion-principal a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+}
+@media(min-width:768){
+
+body {
+    background-color: blue;
+}
+}
+
+.titulo {
+    text-align: center;
+    font-size: 3.8rem;  
+ 
+}
+.banner{
+    height: 700px;
+    position: relative;
+    background: #afbccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner__img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+.banner__info{
+    padding:0 3em;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color: rgb(29, 10, 110);
+    margin: auto;
+}
+.banner__title{
+    line-height: 1.5;
+    font-size: 2.5em;
+}
+.mision{
+    line-height: 1.5;
+    font-size: 1.5em;
+    align-items:center;
+    justify-content:center;
+    height: 200;
+    position: relative;
+    color:rgb(29, 10, 110);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.banner__p{
+    line-height: 2;
+    font-size: 0.9em;
+    opacity: 0.9;
+    margin-top: 1em;
+}
+
+.p1{
+    font-size: 0.7em;
+}
+.icono{
+    
+ color: #1F7F6B;
+ font-size: 30px;
+ padding: 5px;
+ width: 60px;
+ height: 60px;
+ text-align: center;
+ line-height: 50px;
+ border-radius: 50%;
+}
+}
+
+.video {
+
+    line-height: 1.5;
+    font-size: 1.5em;
+    align-items:flex-end;
+    justify-content:center;
+    height: 200;
+    position: relative;
+    color:rgb(29, 10, 110);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alpes{
+    align-items:flex-start;
+
+}
